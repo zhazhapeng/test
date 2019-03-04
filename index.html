@@ -1,100 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Swiper demo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="libs/swiper.min.css">
-	<link rel="stylesheet" type="text/css" href="qixi.css"/>
-	<link rel="stylesheet" type="text/css" href="libs/animate.min.css"/>
-  <!-- Demo styles -->
- 
-</head>
-<body>
-  <!-- Swiper -->
-  <div class="swiper-container">
-  	<img src="images/bgmBtn-fbd2dc.svg" id="music"  />
-  	<audio src="images/music.MP3"  id="music1"></audio>
-    <div class="swiper-wrapper">
-		<!--第一屏-->
-      <div class="swiper-slide one">
-      	<div class="top">
-      		<img src="images/one2.png" class="ani" swiper-animate-effect="swing" swiper-animate-duration="2s" swiper-animate-delay="0.8s"/>
-      		<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="3.1s">七</span>
-      		<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="3.5s">夕</span>
-      		<span class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="3.9s">最</span>
-      		<span class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="4.3s">美</span>
-      		<span class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="4.7s">情</span>
-      		<span class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="5.1s">话</span>
-      	</div>
+	<head>
+		<meta charset="utf-8">
+		<title>Swiper demo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="libs/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="qixi.css" />
+		<link rel="stylesheet" type="text/css" href="libs/animate.min.css" />
+		<!-- Demo styles -->
+
+	</head>
+
+	<body>
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<img src="images/bgmBtn-fbd2dc.svg" id="music" />
+			<audio src="images/music.MP3" id="music1"></audio>
+			<div class="swiper-wrapper">
+				<!--第一屏-->
+				<div class="swiper-slide one">
+					<div class="top">
+						<img src="images/one2.png" class="ani" swiper-animate-effect="swing" swiper-animate-duration="2s" swiper-animate-delay="0.8s" />
+						<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="3.1s">七</span>
+						<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="3.5s">夕</span>
+						<span class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="3.9s">最</span>
+						<span class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="4.3s">美</span>
+						<span class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="4.7s">情</span>
+						<span class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="5.1s">话</span>
+					</div>
 					<!--底部图-->
-      		<img src="images/one7.png" class="bot ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"/>
-      		
-      		<img src="images/one8.png" class="bot ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s"/>
-      		
-      		<img src="images/one4.png" class="bot ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.9s"/>
-      		
-      		<img src="images/one3.png" class="people ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s"/>
-      		
-      		<img src="images/one5.png" class="bot ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.3s"/>
-      		
-      		<img src="images/one6.png" class="xin ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1.3s"/>
-      		
-      		<img src="images/9.png" class="sanxin ani" swiper-animate-effect="bounceInDown " swiper-animate-duration="1.2s" swiper-animate-delay="2.4s"/>
-      		
-      		
-      </div>
-      <!--第一屏结束-->
-      
-      <!--第二屏-->
-      <div class="swiper-slide two">
-      	
-      	<div class="top2">
-      		<img class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1s" src="images/two1.jpg"/>
-      		<span class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="2.9s">"遇见你，</span>
+					<img src="images/one7.png" class="bot ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" />
+
+					<img src="images/one8.png" class="bot ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s" />
+
+					<img src="images/one4.png" class="bot ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.9s" />
+
+					<img src="images/one3.png" class="people ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s" />
+
+					<img src="images/one5.png" class="bot ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.3s" />
+
+					<img src="images/one6.png" class="xin ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1.3s" />
+
+					<img src="images/9.png" class="sanxin ani" swiper-animate-effect="bounceInDown " swiper-animate-duration="1.2s" swiper-animate-delay="2.4s" />
+
+				</div>
+				<!--第一屏结束-->
+
+				<!--第二屏-->
+				<div class="swiper-slide two">
+
+					<div class="top2">
+						<img class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1s" src="images/two1.jpg" />
+						<span class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="2.9s">"遇见你，</span>
+						<br />
+						<span class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="3.3s">然后遇见了自己!"</span>
+					</div>
+					<!--后面的图片-->
+					<img src="images/two3.jpg" class="people ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.1s" />
+					<img src="images/two4.jpg" class="small ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.1s" />
+					<img src="images/two5.jpg" class="ice ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.5s" swiper-animate-delay="1.4s" />
+					<img src="images/two6.jpg" class="love ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.3s" />
+					<img src="images/two7.jpg" class="big ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.9s" swiper-animate-delay="3.3s" />
+					<img src="images/two8.jpg" class="tang ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="2.3s" />
+
+				</div>
+				<!--第二屏结束-->
+
+				<!--第三屏开始-->
+				<div class="swiper-slide four">
+
+					<div class="top-text3">
+						<span>
+	      			我做过最有勇气
+	      		</span>
+							<br />
+							<span>
+	      			的事，
+	      		</span>
+	      		<br />
+							<span>
+	      			就是放弃了做朋
+	      		</span>
+							<br />
+							<span>
+	      			友的机会，
+	      		</span>
+	      		<br />
+							<span>
+	      			只想让你知道我
+	      		</span>
+							<br />
+							<span>
+	      			喜欢你。
+	      		</span>
+					</div>
+					<!--图片部分-->
+					<img src="images/31.jpg" class="people ani" />
+					<img src="images/32.jpg" class="heart ani" />
+					<img src="images/33.jpg" class="left ani" />
+					<img src="images/34.jpg" class="right ani" />
+
+				</div>
+				<!--第三屏结束-->
+				<!--第四屏开始-->
+				<div class="swiper-slide three">
+					<!--顶部字体-->
+					<div class="top-text">
+						<span class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2s">
+      			我能想到最浪漫的事
+      		</span>
+						<br />
+						<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+      			就是和你一起慢慢变老！
+      		</span>
+					</div>
+
+					<img src="images/three 2.jpg" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.1s" />
+					<img src="images/three 1.jpg" />
+					<img src="images/three 3.jpg" class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="2s" swiper-animate-delay="1.4s" />
+					<img src="images/three 4.jpg" class="ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="5s" swiper-animate-delay="1.8s" />
+				</div>
+				<!--第四屏结束-->
+				
+				<!--第五屏开始-->
+				<div class="swiper-slide five">
+					<!--图片部分-->
+					<div class="top-text5">
+						<span class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2s">
+      			两个人之间最好的感觉
+      		</span>
+						<br />
+						<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+      			就是表面互相嫌弃，
+      		</span>
       		<br />
-      		<span class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="3.3s">然后遇见了自己!"</span>
-      	</div>
-      	<!--后面的图片-->
-      	<img src="images/two3.jpg" class="people ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.1s"/>
-      	<img src="images/two4.jpg" class="small ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.1s"/>
-      	<img src="images/two5.jpg" class="ice ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.5s" swiper-animate-delay="1.4s"/>
-      	<img src="images/two6.jpg" class="love ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.3s"/>
-      	<img src="images/two7.jpg" class="big ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.9s" swiper-animate-delay="3.3s"/>
-      	<img src="images/two8.jpg" class="tang ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="2.3s"/>
-      	
-      </div>
-      <!--第二屏结束-->
-     
-      <!--第三屏开始-->
-      <div class="swiper-slide three">
-      	
-      	 	<img src="images/three 2.jpg" class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.3s"/>
-      		<img src="images/three 1.jpg" class="ani" swiper-animate-effect="flash" swiper-animate-duration="1.5s" swiper-animate-delay="0.4s"/>
-      		<img src="images/three 3.jpg" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="1.4s"/>
-      		<img src="images/three 4.jpg" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="2s" swiper-animate-delay="2.0s"/>
-     
-      	
-      </div>
-      
-      <!--第三屏结束-->
-      
-      
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-  </div>
+						<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+      			心中不离不弃！
+      		</span>
+					</div>
+					
+					<img src="images/41.jpg" class="people ani" />
+					<img src="images/42.jpg" class="heart ani" />
+					<img src="images/43.jpg" class="left ani" />
 
-  <!-- Swiper JS -->
-  <script src="libs/swiper.min.js"></script>
-<script src="libs/swiper.animate1.0.3.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="libs/zepto.js" type="text/javascript" charset="utf-8"></script>
-<script src="libs/wcj.js" type="text/javascript" charset="utf-8"></script>
+				</div>
+				<!--第五屏结束-->
+				
+				<!--第六屏开始-->
+				<div class="swiper-slide six">
+					<!--图片部分-->
+					<div class="top-text6">
+						<span class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2s">
+      			不忍心看你单枪匹马
+      		</span>
+						<br />
+						<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+      			闯过人生各个难
+      		</span>
+      			<br />
+						<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+      			关，
+      		</span>
+      		<br />
+						<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+      			请让我在接下来的日
+      		</span>
+      		<br />
+						<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+      			子陪你走余下要走的
+      		</span>
+      			<br />
+						<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+      			路。
+      		</span>
+					</div>
+					
+					<img src="images/51.jpg" class="people ani" />
+					<img src="images/52.jpg" class="heart ani" />
 
+				</div>
+				<!--第六屏结束-->
+				
+				<!--第七屏开始-->
+				<div class="swiper-slide seven">
+					<!--图片部分-->
+					<div class="top-text7">
+						<span class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2s">
+      			你要愿意，
+      		</span>
+						<br />
+						<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+      			我就永远爱你，
+      		</span>
+      			<br />
+						<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+      			你要不愿意，
+      		</span>
+      		<br />
+						<span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+      			我就永远相思！
+      	</span>
+					</div>
+					
+					<img src="images/61.jpg" class="people ani" />
+					<img src="images/62.jpg" class="heart ani" />
+					<img src="images/63.jpg" class="heart ani" />
+					<img src="images/64.jpg" class="heart ani" />
+					<img src="images/65.jpg" class="heart ani" />
 
-  <!-- Initialize Swiper -->
- 
-</body>
+				</div>
+				<!--第七屏结束-->
+				
+				
+				
+				
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+
+		<!-- Swiper JS -->
+		<script src="libs/swiper.min.js"></script>
+		<script src="libs/swiper.animate1.0.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/zepto.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/wcj.js" type="text/javascript" charset="utf-8"></script>
+
+		<!-- Initialize Swiper -->
+
+	</body>
+
 </html>
